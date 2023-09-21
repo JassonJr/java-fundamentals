@@ -77,18 +77,25 @@ public class TesteDeTipos {
 		result = x - y;
 		System.out.println("Subtração: " + result);
 		//Multiplicação
-		System.out.println("Multiplicação" + result);
+		result = x * y;
+		System.out.println("Multiplicação: " + result);
 		//Divisão
+		result = x / y;
 		System.out.println("Divisão: " + result);
-		//Resto
+		//Modular (encontra o resto)
+		result = x % y;
 		System.out.println("Resto: " + result);
 		//pré-incremento
+		result = ++x;
 		System.out.println("Pré-incremento: " + result);
 		//pós-incremento
+		result = y++;
 		System.out.println("Pós-incremento: " + result);
 		//pré-subtrai
+		result = --x;
 		System.out.println("Pré-subtrai: " + result);
 		//pós-subtrai
+		result = y--;
 		System.out.println("Pós-subtrai: " + result);
 	}
 }
