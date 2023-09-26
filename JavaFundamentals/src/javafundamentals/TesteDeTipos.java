@@ -7,33 +7,33 @@ public class TesteDeTipos {
 		types();
 		operators();
 	}
-	//Tipos de dados
-		public static int x = 10;
-		public static void types() {
-			{
-				int y = 6;
-				System.out.println(y);
-			}
-			//double x = 5.7;
-			
-			int num = 4;
-			char capitalJ = 'J';
-			float numF = 3.14F;
-			long longNum = 3000;
-			double numD = 3.14159;
-			
-			//print
-			System.out.println(x);
-			func();
-			int x = (int) 5.745;
-			System.out.println(x);
+	//Método de Tipos de dados
+	public static int x = 10;
+	public static void types() {
+		{
+			int y = 6;
+			System.out.println(y);
 		}
+		//double x = 5.7;
+			
+		int num = 4;
+		char capitalJ = 'J';
+		float numF = 3.14F;
+		long longNum = 3000;
+		double numD = 3.14159;
+			
+		//print
+		System.out.println(x);
+		func();
+		int x = (int) 5.745;
+		System.out.println(x);
+	}
 	public static void func() {
 		int x = 15;
 		System.out.println(x);
 	}
 	
-	//Operadores
+	//Método de Operadores
 	public static void operators() {
 		boolean a = true;
 		boolean b = false;
